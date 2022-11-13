@@ -1,4 +1,4 @@
-const calculateBMI = require('./bmi_calculator.js');
+const calculateBMI = require('../bmi_calculator.js');
 
 console.log('***');
 console.log('testing bmi for 82kg, 172cm, should be Overweight');
