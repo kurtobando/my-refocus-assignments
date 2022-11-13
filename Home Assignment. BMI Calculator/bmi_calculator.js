@@ -16,6 +16,7 @@ function calculateBMI(weightInKg, heightInCm) {
     return 'Obese';
 }
 
-const result = calculateBMI(82, 172);
+// const result = calculateBMI(82, 172);
+// console.log(result);
 
-console.log(result);
+module.exports = calculateBMI;
