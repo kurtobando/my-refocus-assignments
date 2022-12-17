@@ -1,0 +1,39 @@
+/* basic */
+.box-aqua {
+    display: flex;
+    justify-content: center;
+}
+.box-bisque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-blueviolet {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* advanced */
+.box-advanced {
+    position: relative;
+}
+.box-brown {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box-red {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box-black {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.box-gray {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
