@@ -1,0 +1,23 @@
+@media (max-width: 688px) {
+    .mobile {
+        display: block !important;
+    }
+    .tablet,
+    .desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 922px) {
+    .mobile,
+    .desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 1312px) {
+    .mobile,
+    .tablet {
+        display: none;
+    }
+}
